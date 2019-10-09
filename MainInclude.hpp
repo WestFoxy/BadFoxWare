@@ -1,0 +1,31 @@
+#pragma once
+#include "valve_sdk\sdk.hpp"
+#include ".//valve_sdk/interfaces/CInput.hpp"
+#include "helpers/utils.hpp"
+#include "valve_sdk\csgostructs.hpp"
+#include "helpers\math.hpp"
+#include "valve_sdk\sdk.hpp"
+#include ".//valve_sdk/interfaces/CInput.hpp"
+#include "valve_sdk\csgostructs.hpp"
+#include "options.hpp"
+#include "valve_sdk/csgostructs.hpp"
+#include "valve_sdk/sdk.hpp"
+#include "valve_sdk/interfaces/IClientEntity.hpp"
+#include "helpers/math.hpp"
+#include "helpers/utils.hpp"
+#include "ILocalize.hpp"
+#include "options.hpp"
+#include "singleton.hpp"
+#include "valve_sdk/interfaces/CInput.hpp"
+#include "valve_sdk/interfaces/IGameEventmanager.hpp"
+#include "valve_sdk\interfaces\IMDLCache.hpp"
+#include "Hitmarker.h"
+#include "xkeycheck.h"
+#include "Lobby.h"
+#include "Utils_fox.h"
+
+extern std::vector<std::string>mat_names;
+extern std::vector<MaterialHandle_t>mat_handles;
+
+	
+
